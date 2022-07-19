@@ -37,3 +37,17 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 600px){
+    #main-container{
+        padding: 30px;
+    }
+
+    #main-container td{
+        height: 70px;
+    }
+
+    #main-conatiner .btn{
+        height: 40px;
+    }
+}
